@@ -1,0 +1,4 @@
+FROM raster-vision-pytorch:latest
+WORKDIR /app
+COPY test.py ./
+CMD [ "python3", "test.py"]
